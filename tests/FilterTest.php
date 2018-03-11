@@ -1,6 +1,6 @@
 <?php
 
-use DanielLucia\Hooks\Filter;
+use daniellucia\Hooks\Filter;
 
 class FilterTest extends PHPUnit_Framework_TestCase
 {

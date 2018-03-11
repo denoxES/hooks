@@ -1,6 +1,6 @@
 <?php
 
-use DanielLucia\Hooks\Manager as Hooks;
+use daniellucia\Hooks\Manager as Hooks;
 
 class ManagerTest extends PHPUnit_Framework_TestCase
 {
@@ -13,7 +13,7 @@ class ManagerTest extends PHPUnit_Framework_TestCase
 
 	public function testBasic()
 	{
-		$this->assertInstanceOf('DanielLucia\\Hooks\\Action', $this->hooks->action);
-		$this->assertInstanceOf('DanielLucia\\Hooks\\Filter', $this->hooks->filter);
+		$this->assertInstanceOf('daniellucia\\Hooks\\Action', $this->hooks->action);
+		$this->assertInstanceOf('daniellucia\\Hooks\\Filter', $this->hooks->filter);
 	}
 }

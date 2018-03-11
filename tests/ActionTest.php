@@ -1,6 +1,6 @@
 <?php
 
-use DanielLucia\Hooks\Action;
+use daniellucia\Hooks\Action;
 
 class ActionTest extends PHPUnit_Framework_TestCase
 {

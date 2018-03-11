@@ -1,6 +1,6 @@
 <?php
 
-namespace DanielLucia\Hooks;
+namespace daniellucia\Hooks;
 
 class Manager
 {
