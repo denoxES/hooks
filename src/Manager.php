@@ -1,5 +1,9 @@
 <?php
 
+/*
+FORK
+*/
+
 namespace daniellucia\Hooks;
 
 class Manager

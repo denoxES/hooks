@@ -1,5 +1,9 @@
 <?php
 
+/*
+FORK
+*/
+
 namespace daniellucia\Hooks;
 
 class Hook
@@ -15,7 +19,7 @@ class Hook
 	 * @param callback $function
 	 * @param integer $priority
 	 */
-	public function add($name, $function, $priority = 10) 
+	public function add($name, $function, $priority = 10)
 	{
 		$this->hooks[ $name ][ $priority ][] = $function;
 	}
@@ -24,7 +28,7 @@ class Hook
 	 * @param string $name The name of the hook.
 	 * @return boolean
 	 */
-	public function has($name) 
+	public function has($name)
 	{
 		if (isset($this->hooks[$name]) && !empty($this->hooks[$name]))
 		{

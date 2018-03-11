@@ -1,5 +1,9 @@
 <?php
 
+/*
+FORK
+*/
+
 namespace daniellucia\Hooks;
 
 class Filter extends Hook
@@ -9,7 +13,7 @@ class Filter extends Hook
 	 * @param mixed $value
 	 * @return mixed
 	 */
-	public function apply($name, $value) 
+	public function apply($name, $value)
 	{
 		$args = array_slice(func_get_args(), 2);
 
