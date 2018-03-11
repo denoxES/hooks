@@ -1,6 +1,6 @@
 <?php
 
-use Skopek\Hooks\Filter;
+use DanielLucia\Hooks\Filter;
 
 class FilterTest extends PHPUnit_Framework_TestCase
 {

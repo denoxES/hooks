@@ -1,6 +1,6 @@
 <?php
 
-namespace Skopek\Hooks;
+namespace DanielLucia\Hooks;
 
 class Action extends Hook
 {
