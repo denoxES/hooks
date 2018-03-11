@@ -8,7 +8,7 @@ class Action extends Hook
 	 * @param string $name The name of the hook.
 	 * @return boolean
 	 */
-	public function run($name) 
+	public function run($name)
 	{
 		$args = array_slice(func_get_args(), 1);
 
@@ -19,11 +19,17 @@ class Action extends Hook
 
 		ksort($this->hooks[ $name ]);
 
+		/*
+		@daniel.lucia
+		Cambiado para que devuelva el resultado de las acciones
+		*/
+		$return = array();
+
 		foreach ($this->hooks[$name] as $priority => $functions) {
 			foreach ($functions as $function) {
-				call_user_func_array( $function, $args );
+				$return[] = call_user_func_array( $function, $args );
 			}
 		}
-		return true;
+		return implode('', $return);
 	}
 }
