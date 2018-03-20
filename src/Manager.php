@@ -53,4 +53,12 @@ class Manager
 	{
 		return $this->get($key);
 	}
+
+	/**
+	 * @return object
+	 */
+	public function getAll()
+	{
+		return $this->instances;
+	}
 }
