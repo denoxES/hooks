@@ -1,5 +1,5 @@
 {
-    "name": "daniellucia/hooks",
+    "name": "oscdenox/hooks",
     "description": "PHP Hooks System",
     "keywords": ["hooks", "action", "filter"],
     "license": "MIT",
@@ -14,11 +14,11 @@
         "phpunit/phpunit": "~4.5"
     },
     "support": {
-        "issues": "https://github.com/daniellucia/hooks/issues"
+        "issues": "https://github.com/oscdenox/hooks/issues"
     },
     "autoload": {
         "psr-4": {
-            "daniellucia\\Hooks\\": "src/"
+            "oscdenox\\Hooks\\": "src/"
         }
     }
 }
