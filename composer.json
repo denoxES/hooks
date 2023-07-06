@@ -1,6 +1,6 @@
 {
     "name": "oscdenox/tools-hooks",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "description": "Integración Sistema de PHP Hooks",
     "require": {
         "php": ">=7.0"
