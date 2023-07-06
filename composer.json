@@ -1,7 +1,10 @@
 {
     "name": "oscdenox/tools-hooks",
     "version": "0.2.6",
-    "description": "PHP Hooks System",
+    "description": "Integración Sistema de PHP Hooks",
+    "require": {
+        "php": ">=7.0"
+    },
     "keywords": ["hooks", "action", "filter"],
     "license": "MIT",
     "type": "library",
@@ -21,5 +24,6 @@
         "psr-4": {
             "oscdenox\\Hooks\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
